@@ -1,9 +1,4 @@
-import streamlit as st
 
-# **UWAGA:** Ponieważ nie używamy stanów sesji ani trwałego zapisu danych,
-# ta globalna lista zostanie zresetowana przy każdym ponownym uruchomieniu
-# lub ponownym załadowaniu aplikacji Streamlit.
-STAN_MAGAZYNU = []
 
 def dodaj_towar(nazwa: str, ilosc: int, cena: float):
     """Dodaje towar do magazynu, jeśli wszystkie pola są poprawne."""
